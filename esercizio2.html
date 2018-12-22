@@ -1,0 +1,60 @@
+<html>
+ <head>
+  <style>
+   article{
+    width: 200px;
+	height: 200px;
+   } 
+   .box1{
+    -webkit-transition: width 0.5s, height 0.5s;
+    transition: width 0.5s, height 0.5s;
+   }
+   .box1:hover{
+    width: 400px;
+	height: 400px;
+   }
+   .box2{
+    background-color: red;
+   }
+   .box2:hover{
+    background-color: yellow;
+   }
+   .box3{
+    -webkit-transition: width 2s linear 1s; 
+    transition: width 2s linear 1s;
+   }
+   .box3:hover{
+    width: 400px;
+   }
+   .box4{
+    -webkit-transition: width 2s ease 1s; 
+    transition: width 2s ease 1s;
+   }
+   .box4:hover{
+    width: 400px;
+   }
+   .box5{
+    -webkit-transition: width 2s ease-in 1s; 
+    transition: width 2s ease-in 1s;
+   }
+   .box5:hover{
+    width: 400px;
+   }
+   .box6{
+    -webkit-transition: width 2s ease-out 1s; 
+    transition: width 2s ease-out 1s;
+   }
+   .box6:hover{
+    width: 400px;
+   }
+  </style>
+ </head>
+ <body>
+  <article class="box1">1°</article>
+  <article class="box2">2°</article>
+  <article class="box3">3°</article>
+  <article class="box4">4°</article>
+  <article class="box5">5°</article>
+  <article class="box6">6°</article>
+ </body>
+</html>

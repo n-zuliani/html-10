@@ -1,0 +1,49 @@
+<html>
+ <head>
+  <style>
+   article{
+    width: 200px;
+	height: 200px;
+	position: relative;
+	background-color: red;
+    -webkit-animation-name: color; 
+    -webkit-animation-duration: 9s; 
+    animation-name: color;
+    animation-duration: 9s;
+	animation-delay: 5s;
+	animation-timing-function: ease;
+	-webkit-animation-timing-function: ease;
+   } 
+   
+
+@-webkit-keyframes color {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:green; left:200px; top:200px;}
+  75%  {background-color:blue; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+
+@keyframes color {
+   0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:green; left:200px; top:200px;}
+  75%  {background-color:blue; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+  </style>
+ </head>
+ <body>
+  <article>1°</article>
+  <article>2°</article>
+  <article>3°</article>
+  <article>4°</article>
+  <article>5°</article>
+  <article>6°</article>
+  <article>7°</article>
+  <article>8°</article>
+  <article>9°</article>
+  <article>10°</article>
+ </body>
+</html>
